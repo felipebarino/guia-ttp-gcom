@@ -11,8 +11,9 @@ Para obtenção das regras de design foi projetada uma placa de testes, o projet
 O resultado encontrado para profundidade de corte igual a $0.05~\textrm{mm}$ e $0.035~\textrm{mm}$ pode ser visto abaixo.
 
 <p align="center">
-  <img src="../assets/design_rules_results.jpeg" alt= “” class=“center” width="50%" height="50%">
-<figcaption style="text-align: center;">Resultado de Construção_DesignRules</figcaption>
+   <img src="img/design_rules_results.jpeg" alt="Resultado de Construcao Design Rules" width="50%">
+   <br>
+   <em>Resultado de Construcao Design Rules</em>
 </p>
 
 Inspecionando as espessuras de trilhas e a isolação correta na placa resultantes e no projeto, chegou-se às regras de design listadas abaixo. 

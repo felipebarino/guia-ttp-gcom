@@ -10,7 +10,9 @@ copyright: Copyright &copy; 2026 - Grupo de Controle e Modelagem (GCoM)
 nav:
   - Início: index.md
   - Projeto: design_rules.md
+  - Preparação: prep_gcode.md
   - Fabricação: operation.md
+
   
 theme:
   favicon: img/favicon.ico
@@ -44,8 +46,18 @@ plugins:
       trim: false
 
 markdown_extensions:
-  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid.js

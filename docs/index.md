@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="img/logo.png" alt= “” class=“center” width="70%" height="70%">
-<figcaption style="text-align: center;">Grupo de Controle e Modelagem</figcaption>
+  <img src="img/logo.png" alt="Grupo de Controle e Modelagem" width="70%">
+  <br>
+  <strong>Grupo de Controle e Modelagem</strong>
 </p>
 
 
