@@ -11,8 +11,9 @@
 
 Este é um guia rápido e repositório de informações para fabricação de PCBs utilizando a fresadora TTP Proto 1S.
 
-!!! warning "Aviso de Referência e Complementaridade"
-    Este site é um guia prático interno do laboratório e destina-se a padronizar o fluxo de trabalho e registrar as regras de projeto da nossa bancada. **Este material complementa e NÃO substitui o manual/tutorial oficial** fornecido pela TTP Indústria Mecânica Ltda. Ele pode ser acessado em [Tutorial TTP](https://www.ttp.ind.br/portal/tutorial/index.html).
+## Aviso de Referência e Complementaridade
+
+Este site é um guia prático interno do laboratório e destina-se a padronizar o fluxo de trabalho e registrar as regras de projeto da nossa bancada. **Este material complementa e NÃO substitui o manual/tutorial oficial** fornecido pela TTP Indústria Mecânica Ltda. Ele pode ser acessado em [Tutorial TTP](https://www.ttp.ind.br/portal/tutorial/index.html).
 
 ## Objetivo
 
