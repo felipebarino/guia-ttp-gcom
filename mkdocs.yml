@@ -1,0 +1,51 @@
+site_name: Guia prototipagem eletrônica - GCoM
+site_description: Guia e referência para criação de placas de circuito impresso via usinagem 
+site_author: Felipe Oliveira Barino
+
+repo_name: felipebarino/guia-ttp-gcom
+repo_url: https://github.com/felipebarino/guia-ttp-gcom
+
+copyright: Copyright &copy; 2026 - Grupo de Controle e Modelagem (GCoM)
+
+nav:
+  - Início: index.md
+  - Projeto: design_rules.md
+  - Fabricação: operation.md
+  
+theme:
+  favicon: img/favicon.ico
+  name: material
+  logo: img/logo.png
+  features:
+    - content.code.copy
+  language: pt-br
+  palette:
+    - scheme: default
+      primary: white
+      accent: brown
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo noturno
+    - scheme: slate
+      primary: black
+      accent: brown
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro 
+
+plugins:
+  - search
+  - meta-descriptions:
+      export_csv: false
+      quiet: false
+      enable_checks: false
+      min_length: 50
+      max_length: 160
+      trim: false
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
