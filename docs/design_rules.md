@@ -4,14 +4,26 @@ Para evitar quebras de ferramentas finas, curtos por sobreposição de cobre ou 
 
 ---
 
-## Metodologia
+## Definir os limites de fabricação
 
-Para obtenção das regras de design foi projetada uma placa de testes, o projeto completo, bem como gerbers, gcode, e projeto do FlatCAM podem ser obtidos no [repositório deste tutorial](https://github.com/felipebarino/guia-ttp-gcom/tree/main/assets/Constru%C3%A7%C3%A3o_DesignRules).
+### Metodologia
 
-O resultado encontrado para profundidade de corte igual a 0.05 mm e 0.035 mm pode ser visto abaixo.
+Para obtenção das regras de design foi projetada uma placa de testes. O projeto completo bem como gerbers, gcode, e projeto do FlatCAM podem ser obtidos no [repositório deste tutorial](https://github.com/felipebarino/guia-ttp-gcom/tree/main/assets/Constru%C3%A7%C3%A3o_DesignRules).
+
+A placa fabricada usa dois componentes SMD com encapsulamentos: `LQFP 32 7x7mm P0.8mm` e `SOP65P640X120-28N`, o primeiro foi testado também com angulação não-reta. E trilhas variando de 0.15mm a 0.8mm com espaçamentos de 0.05mm a 0.5mm em passos de 0.05mm. A comparação entre o que foi projetado e o que foi fabricado permite obter as regras de projeto. Veja o projeto abaixo:
 
 <p align="center">
-   <img src="../img/design_rules_results.jpeg" alt="Resultado de Construção Design Rules" width="45%">
+   <img src="../img/projeto_drc.png" alt="Placa de testes" width="80%">
+   <br>
+   <em>Placa de teste projetada</em>
+</p>
+
+### Resultados
+
+O projeto foi executado com duas profundidades (usando a ferramente de gravação em V): 0.05 mm e 0.035 mm. Como o cobre é, em geral 0.035 mm, esta é a profundidade mínima e a maior resolução possível com esta ferramenta. O resultado encontrado pode ser visto abaixo.
+
+<p align="center">
+   <img src="../img/design_rules_results.jpeg" alt="Resultado de Construção Design Rules" width="60%">
    <br>
    <em>Resultado de Construção Design Rules</em>
 </p>
