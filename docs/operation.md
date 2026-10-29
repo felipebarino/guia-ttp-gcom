@@ -7,13 +7,13 @@
 
 ## Tabela de Ferramentas do Laboratório
 
-Todas as ferramentas utilizadas no Spindle da TTP Proto1s **devem ter haste de exatamente 1/8” (3,175\text{ mm})**. Ferramentas fora dessa especificação danificam a pinça de aperto.
+Todas as ferramentas utilizadas no Spindle da TTP Proto1s **devem ter haste de exatamente 1/8” (3,175 mm)**. Ferramentas fora dessa especificação danificam a pinça de aperto.
 
 ### Identificação por Anel Colorido
 
 | Tipo | Cor do Anel de Nylon | Diâmetro Configurado | Aplicação Principal |
 | :--- | :--- | :--- | :--- |
-| **Fresa** | **V 60° (VCut)** | **`0,199 mm`** | Isolação de trilhas e pads SMD/PTH (profundidade Z = 0,037\text{ mm}) |
+| **Fresa** | **V 60° (VCut)** | **`0,199 mm`** | Isolação de trilhas e pads SMD/PTH (profundidade Z = 0,037 mm) |
 | **Fresa** | **Vinho** | `1,50 mm` | Remoção de grandes áreas de cobre / Desbaste / Recorte final do contorno |
 | **Fresa** | **Laranja Escuro** | `1,50 mm` | Remoção de grandes áreas de cobre |
 | **Broca** | **Verde Água** | `0,30 mm` | Vias e furos extra finos |
@@ -27,14 +27,14 @@ Todas as ferramentas utilizadas no Spindle da TTP Proto1s **devem ter haste de e
 | **Broca** | **Roxo** | `1,30 mm` | Terminais largos e conectores de potência |
 
 !!! info "Detalhamento da Geometria da Fresa VCut 60°"
-    A fresa cônica V 60° altera sua largura efetiva de usinagem conforme afunda na placa. Para remover a camada padrão de 35\,\mu\text{m} de cobre com tolerância, a profundidade do eixo Z é travada em **0,037\text{ mm}**. Nessa profundidade específica, o diâmetro de corte resultante no CAM deve ser configurado como **0,199\text{ mm}**.
+    A fresa cônica V 60° altera sua largura efetiva de usinagem conforme afunda na placa. Para remover a camada padrão de 0,035 mm de cobre com tolerância, a profundidade do eixo Z é travada em 0,037 mm. Nessa profundidade específica, o diâmetro de corte resultante no CAM deve ser configurado como 0,199 mm.
 
 
 ## Regras Práticas do Laboratório e Segurança
 
 ### Margem do Substrato e Fixação
 * **Tamanho Utilizável:** O tamanho detectado pelos sensores da máquina durante o mapeamento automático é menor que o tamanho físico real da placa de FR4 virgem.
-* **Corte do Substrato:** Deixe sempre uma sobra de **5\text{ mm} a 10\text{ mm} em cada lado** em relação ao contorno do `Edge.Cuts`.
+* **Corte do Substrato:** Deixe sempre uma sobra de **5 mm a 10 mm em cada lado** em relação ao contorno do `Edge.Cuts`.
 * **Fixação:** Aplique fita dupla face cobrindo uniformemente o verso do substrato para impedir vibrações, evitando cobrir as áreas onde a broca atravessará totalmente a placa.
 
 ### Segurança e Rearme Obrigatório
@@ -133,7 +133,7 @@ sequenceDiagram
 
 * **Recorte de Contorno (`Edge.Cuts`):**
   * **Ferramenta:** Fresa Laranja Escuro (`1,5 mm`).
-  * **Cut Z:** `-1,7 mm` *(atravessa os 1,6\text{ mm} do substrato).*
+  * **Cut Z:** `-1,7 mm` *(atravessa os 1,6 mm do substrato).*
   * **Travel Z:** `1,0 mm`.
   * **Feedrate:** `750 mm/min`.
 
