@@ -1,6 +1,4 @@
-# guia-ttp-gcom
-Guia de Uso para a prototipadora de placas TTP Proto1s, não substitui o tutorial oficial https://www.ttp.ind.br/portal/tutorial/index.html
-
+# Guia de uso - TTP Proto1s
 
 <p align="center">
   <img src="docs/img/logo.png" alt="" width="70%" height="70%">
@@ -23,4 +21,5 @@ O objetivo principal é garantir uma boa qualidade de prototipagem com o mínimo
 ## TODO
 
 [ ] Descrever melhor o fluxo dentro do CAM
+
 [ ] Gravar o fluxo completo no CAM e publicar no YouTube
