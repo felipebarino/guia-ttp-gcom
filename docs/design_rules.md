@@ -8,7 +8,7 @@ Para evitar quebras de ferramentas finas, curtos por sobreposição de cobre ou 
 
 Para obtenção das regras de design foi projetada uma placa de testes, o projeto completo, bem como gerbers, gcode, e projeto do FlatCAM podem ser obtidos no [repositório deste tutorial](https://github.com/felipebarino/guia-ttp-gcom/ssets\Construção_DesignRules).
 
-O resultado encontrado para profundidade de corte igual a $0.05~\textrm{mm}$ e $0.035~\textrm{mm}$ pode ser visto abaixo.
+O resultado encontrado para profundidade de corte igual a 0.05~\textrm{mm} e 0.035~\textrm{mm} pode ser visto abaixo.
 
 <p align="center">
    <img src="img/design_rules_results.jpeg" alt="Resultado de Construcao Design Rules" width="50%">
@@ -18,7 +18,7 @@ O resultado encontrado para profundidade de corte igual a $0.05~\textrm{mm}$ e $
 
 Inspecionando as espessuras de trilhas e a isolação correta na placa resultantes e no projeto, chegou-se às regras de design listadas abaixo. 
 
-_*Note que há alguns trechos em que a placa não foi corretamente usinada, alterando-se a profundiade de corte para $0.037~\textrm{mm}$ corrigiu o problema com as mesmas regras de projeto._ 
+_*Note que há alguns trechos em que a placa não foi corretamente usinada, alterando-se a profundiade de corte para 0.037~\textrm{mm} corrigiu o problema com as mesmas regras de projeto._ 
 
 ## Tabela de Restrições (DRC)
 
