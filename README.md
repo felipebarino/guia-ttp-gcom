@@ -21,6 +21,6 @@ O objetivo principal é garantir uma boa qualidade de prototipagem com o mínimo
 
 ## TODO
 
-[ ] Descrever melhor o fluxo dentro do CAM
+- [ ] Descrever melhor o fluxo dentro do CAM
 
-[ ] Gravar o fluxo completo no CAM e publicar no YouTube
+- [ ] Gravar o fluxo completo no CAM e publicar no YouTube
